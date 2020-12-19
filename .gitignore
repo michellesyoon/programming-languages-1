@@ -1,0 +1,14 @@
+.history
+.DS_Store 
+*.hi
+*.o
+*.txt
+*.x
+*.info
+*.y
+Makefile
+.stack-work/
+*.lock
+
+Local
+*copy

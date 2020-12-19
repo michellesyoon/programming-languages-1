@@ -1,8 +1,8 @@
-# Programming Languages 2020
+# Programming Languages 
 
-This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and will be taught by Alexander Kurz.
+This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and is taught by Alexander Kurz. To run next time in Fall 2021.
 
-**Notes and Materials** for a course on Programming Languages Fall 2020 at Chapman University.
+**Notes and Materials** for a course on Programming Languages at Chapman University.
 
 - [Syllabus](syllabus.md)  
 - [Overview](overview.md)  
@@ -19,7 +19,7 @@ This course has been developed by Alexander Kurz and Samuel Balco for the studen
 - [Relationship to Other Courses](other-courses.md)
 
 
-## Online Courses on Programming Languages
+## Other Courses on Programming Languages
 
   - [Programming Languages](https://opendsa-server.cs.vt.edu/ODSA/Books/PL/html/#). This course follows a similar outline. Chapters 1.1, 1.3, 2.1, 2.2, 3.1-3.4, 3.6, 3.9 could be a useful second reference for this course. The **online exercises** may also be valuable, let me know if you try them. Chapter 4 corresponds to LambdaNat and Chapter 5 to LambdaFun but the details are quite different. We only touch upon Chapter 6, so that could be further reading. Chapter 7 on Type Systems is a topic we will study in our course on Compiler Construction. 
 
@@ -42,7 +42,7 @@ I list some books that stood the test of time and are less technical and of wide
 
 ## Early History of Programming Languages
 
-The early history of programming languages was driven by mathematicians, logicians and philosophers. A great way to explore it is the Stanford Encyclopedia of Philosophy (SEP). I link articles that feature some of the early researchers in programming language who will appear in our course such as Church, Turing, and Curry and others for whom we do not have time such as Dedekind, Peano, Russell, Hilbert, Brouwer, Goedel, Gentzen. The articles can get quite technical but just reading the introductions gives an idea of the broader questions and developments. A nice project could be to arrange the topics and protagonists of these articles into a timeline and then sketch a short history of the most important ideas and how they hang together.
+The early history of programming languages was driven by mathematicians, logicians and philosophers. A great way to explore it is the Stanford Encyclopedia of Philosophy (SEP). I link articles that feature some of the early researchers in programming language who will appear in our course such as Church, Turing, and Curry and logicians and mathematicians for whom we do not have time such as Dedekind, Peano, Russell, Hilbert, Brouwer, Goedel, Gentzen. The articles can get quite technical but just reading the introductions gives an idea of the broader questions and developments. A nice project could be to arrange the topics and protagonists of these articles into a timeline and then sketch a short history of the most important ideas and how they hang together.
 
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)  
 - [Dedekind](https://plato.stanford.edu/entries/dedekind-foundations/) and [The Early Development of Set Theory](https://plato.stanford.edu/entries/settheory-early/)
@@ -65,7 +65,7 @@ Get in touch if you want to hear more about how these articles are related to th
 
 ## Modern History of Programming Languages
 
-I would let the modern history of programming languages begin with Fortran and Lisp. Until approximately 1970 it was dominated by the problem of writing efficient compilers. By 1980, parsing and compiling was well understood and software engineering was born. We will have more time for this part of the history next semester in Compiler Construction. The discussion topics below mostly aim at current developments in programming languages.
+I would let the modern history of programming languages begin with Fortran and Lisp. Until approximately 1970 it was dominated by the problem of writing efficient parsers and compilers. By 1980, parsing and compiling was well understood and software engineering was born. We will have more time for this part of the history next semester in Compiler Construction. The discussion topics below mostly aim at current developments in programming languages.
 
 ## Discussion Topics 
 
