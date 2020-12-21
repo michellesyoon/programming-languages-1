@@ -1,6 +1,6 @@
 # Programming Languages 
 
-(adapted from 2020 ... some links may be broken ... to run next time in Fall 2021)
+(to be adapted from 2020 ... some links may be broken ... to run next time in Fall 2021)
 
 This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and is taught by Alexander Kurz. 
 
@@ -15,7 +15,7 @@ This course has been developed by Alexander Kurz and Samuel Balco for the studen
 - [Lecture by Lecture](lecture-by-lecture.md)  
 - [Discussion Forum](discussion-forum.md)  
 - [Assignments](assignments.md)
-- [Blog/Tutorial](blog.md)
+- [Blog](blog.md)
 - [On the Use of Git](git-best-practices.md)
 - [Extra Credit](extra-credit.md)
 - [Relationship to Other Courses](other-courses.md)

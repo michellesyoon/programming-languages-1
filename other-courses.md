@@ -1,6 +1,6 @@
 # Relationship to Other Courses
 
-Below I will indicate briefly how the course Programming Languages relates to some other courses tought at Chapman.
+Below I will indicate briefly how the course Programming Languages relates to some other courses taught at Chapman.
 
 ## Discrete Mathematics
 
