@@ -1,6 +1,8 @@
 # Programming Languages 
 
-This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and is taught by Alexander Kurz. To run next time in Fall 2021.
+(adapted from 2020 ... some links may be broken ... to run next time in Fall 2021)
+
+This course has been developed by Alexander Kurz and Samuel Balco for the students of Chapman University and is taught by Alexander Kurz. 
 
 **Notes and Materials** for a course on Programming Languages at Chapman University.
 
