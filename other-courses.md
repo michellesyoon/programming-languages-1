@@ -15,7 +15,7 @@ To understand various models of computation, we will study some basic notions of
 
 ## Analysis of Algorithms
 
-We illustrate the important concept of **non-deterministic algorithms** in various places. For example, the operational semantics of lambda-calculus is non-determinstic which opens up the possibility for call-by-value languages (C, Python, Java, ML, ...) and lazy languages (Haskell). We also discuss that different evaluation strategies can affect the **space and time complexity** of algorithms.
+We illustrate the important concept of **non-deterministic algorithms** in various places. For example, the operational semantics of lambda-calculus is non-determinstic which opens up the possibility for call-by-value/strict languages (C, Python, Java, ML, ...) and call-by-name/non-strict/lazy languages (Haskell). We also discuss that different evaluation strategies can affect the **space and time complexity** of algorithms.
 
 We use [invariants](https://hackmd.io/@alexhkurz/BkMoUhXvD) to prove the correctness of algorithms.
 

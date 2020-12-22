@@ -93,8 +93,6 @@ None of this is required reading, but all of it is part of the wider landscape i
 
 - Video: [Modelling Pandemics in Julia](https://www.youtube.com/watch?v=7zr2qnud4XM&feature=youtu.be) features many of the topics that appear in our course. 
 
-- Video: [Visualised Recursion](https://www.youtube.com/watch?v=OXo-uzzD4Js&feature=emb_logo) ... [Explanation](https://www.youtube.com/watch?v=gCciKhaK2v8)
-
 - Tony Hoare: 
   - [1980 Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/1283920.1283936) has a lot of interesting anecdotes about Quicksort, Algol, the switch statement, early compilers, operating systems, Hoare logic. Also some valuable general lessons about software engineering. I collected some of my [favourite quotes](hoare-1980-quotes.md).
 

@@ -18,9 +18,19 @@ The minimal way to set up a blog is as follows:
 - Add a `README.md`.
 - Make `.md` files for each blog entry. Link them from the README.
 
-To learn markdown, google "markdown cheat sheet" ... it is easy. And it is what I use for this course. Btw, you can use all of html in markdown. It makes the writing more cumbersome, but also gives you additional options. 
+To learn markdown, have a look at this  [Markdown Guide](https://www.markdownguide.org/basic-syntax) and one of the many [cheat sheets](https://www.markdownguide.org/cheat-sheet). Markdown is easy. And it is what I use for this course, so you can also look at my sources. Btw, you can use all of html in markdown. It makes the writing more cumbersome, but also gives you additional options. 
 
-Personally, I am more interested in content than in form. So if you take my github repo for this course as a guideline this is fine. But I don't want to discourage more sophisticated design of a webpage. If you like to design a fancy webpage, that will gain you points as well.
+Here are some tips:
+
+- Link your blog entries from the README.
+- Never paste naked urls into md, use `[name](url)`.
+- Spellcheck your blogs.
+- Typeset code as code, not text.
+- Add a list of references at the end of each blog.
+
+Personally, I am more interested in content than in form, but form is important as well. Just ask yourself whether the form supports the understanding of the content or whether it distracts from what you want to achieve. For example, spelling mistakes are always distracting. And long paragraphs are almost always bad form. This is not an English assignment, but it can't harm to think of this classic [advice by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit). To avoid what Orwell calls "this mixture of vagueness and sheer incompetence" is particularly important in technical writing.
+
+You can take my github repo for this course as a guideline for your blog, but I don't want to discourage more sophisticated design of a webpage (or better use of the English language).
 
 
 ## Organisation
@@ -58,6 +68,8 @@ For example, wrt to Haskell tutorial, here are some things I would like to learn
 - **C:** Demonstrates adequate familiarity with Haskell. Develops own examples along the lines of the homework.
 - **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of substantial interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project (but there are many possibilities here ... get in touch to discuss more.)
+
+Spelling, typesetting, layout, and structure will also be taken into account for grading. Does the form support the understanding of (or does it distract from) the content?
 
 Again, if you have your own ideas, let me know. I am happy to adapt these guidelines if they do not fit what you have in mind.
 
