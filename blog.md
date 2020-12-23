@@ -24,13 +24,20 @@ Here are some tips:
 
 - Link your blog entries from the README.
 - Never paste naked urls into md, use `[name](url)`.
-- Spellcheck your blogs.
+- Did yo spellcheck your blogs?
 - Typeset code as code, not text.
 - Add a list of references at the end of each blog.
 
-Personally, I am more interested in content than in form, but form is important as well. Just ask yourself whether the form supports the understanding of the content or whether it distracts from what you want to achieve. For example, spelling mistakes are always distracting. And long paragraphs are almost always bad form. This is not an English assignment, but it can't harm to think of this classic [advice by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit). To avoid what Orwell calls "this mixture of vagueness and sheer incompetence" is particularly important in technical writing.
+Personally, I am more interested in content than in form, but form is important as well. Just ask yourself whether the form supports the understanding of the content or whether it distracts from what you want to achieve. For example, spelling mistakes are always distracting. And long paragraphs are almost always bad form. 
 
 You can take my github repo for this course as a guideline for your blog, but I don't want to discourage more sophisticated design of a webpage (or better use of the English language).
+
+
+The blog is not an English assignment, but I do remmend to read this classic and entertaining [article by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit). 
+- To avoid what Orwell calls "this mixture of vagueness and sheer incompetence" is particularly important in technical writing. 
+- "A scrupulous writer, in every sentence that he writes, will ask himself at least four questions, thus: What am I trying to say? What words will express it? What image or idiom will make it clearer? Is this image fresh enough to have an effect? And he will probably ask himself two more: Could I put it more shortly? Have I said anything that is avoidably ugly?" Perhaps metaphors play a lesser role in our kind of technical writing, but if you replace "image" above by "example", Orwell's remarks are again exactly to the point.
+- Orwell recommends to "think wordlessly, and then, [...] describe the thing you have been visualising"   and "to put off using words as long as possible and get one's meaning as clear as one can through pictures" first. 
+
 
 
 ## Organisation
