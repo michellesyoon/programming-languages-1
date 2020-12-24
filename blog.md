@@ -1,6 +1,6 @@
 # Blog    
 
-Deadline: **Wed Dec, 23.**
+Deadline: tba.
 
 ## Introduction
 
@@ -32,6 +32,7 @@ Personally, I am more interested in content than in form, but form is important 
 
 You can take my github repo for this course as a guideline for your blog, but I don't want to discourage more sophisticated design of a webpage (or better use of the English language).
 
+## Writing Tips
 
 The blog is not an English assignment, but I do remmend to read this classic and entertaining [article by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit). 
 - To avoid what Orwell calls "this mixture of vagueness and sheer incompetence" is particularly important in technical writing. 
@@ -60,14 +61,14 @@ Your blog should
 
 ## General remarks on content
 
-Make the blog interesting to your readers including myself. Do not repeat material that is already in the lecture notes.  Explore on your own. If you write about material we have covered in the lectures, make your own examples and add your own angle. Do not post answers to homework and assignments.
+Make the blog interesting to your readers including myself. Do not only repeat material that is already in the lecture notes.  Explore on your own. If you write about material we have covered in the lectures, make your own examples and add your own angle. **Do not post answers to homework and assignments.**
 
-For example, wrt to Haskell tutorial, here are some things I would like to learn from you:
+For example, if you write a Haskell tutorial, here are some things I would like to learn from you:
 - How do newcomers learn functional programming?
 - Which external sources (videos, blogs, tutorials, etc) do you find most useful?
 - How does Haskell compare to your favourite programming language? Give examples of the same algorithm written in your favourite language and in Haskell. What are the respectives strengths and weaknesses of the two programming paradigms?
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
-- Are there any projects you implemented in Haskell that go beyond what we do in class?
+- Are there any projects you implemented in Haskell that go beyond what we do in class? What did you learn from them? Can you explain your project in a way that the reader wants to run and/or recreate it?
 
 ## Grading Guidelines
 
@@ -89,7 +90,7 @@ Some items require more work than others. Feel free to expand interesting topics
 #### Haskell
 
 -  Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
-- Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run.
+- Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run. Evaluate your findings.
 - Explain how to use docker to setup Haskell and bnfc. Make a dockerfile that we could use to run Haskell, bnfc and the assignments.
 -  I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
 - Haskell and $\lambda$-calculus: 
@@ -98,6 +99,7 @@ Some items require more work than others. Feel free to expand interesting topics
 -  If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is a big topic and would be worth a whole series of blog posts.)
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
 - Do one (or more) of the [exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) labelled "Optional (but interesting)". (Essential exercises are not suitable for the blog.)
+- ...
 
 #### Theory
 
@@ -107,9 +109,10 @@ Some items require more work than others. Feel free to expand interesting topics
 - Beta-reduction is an important computational mechanism. Explore how to efficiently implement it using de Bruin indices.
 - Can we prove confluence automatically? What is the Knuth-Bendix algorithm?
 - Not all terminating programs can be proved terminating with a termination measure that takes values in natural numbers. How can we go beyond this?
-- Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and Hoare triples. Eplore.
+- Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and Hoare triples. Explore.
 - [Reversible computing](https://hackmd.io/@alexhkurz/H1PIwnSqw).
 - Interactive theorem provers (Isabelle, Coq, Agda, Lean, ...) are functional programming languages in which one can prove mathematical theorems. Explore.
+- ...
 
 #### General Programming Languages Topics
 
@@ -117,9 +120,11 @@ Some items require more work than others. Feel free to expand interesting topics
   - Haskell is close to what one calls "pure functional programming" but there are also multi-paradigm languages such as OCaml and, more recently, Scala and Julia. You can pick Julia or Scala and write one or more blogs about how they integrate FP and OO. What are the benefits (apart from just having both FP and OO)?
   - In case you have an interest in logic programming (eg PROLOG), there is some interesting literature on building multi-paradigm languages that combine functional and logic programming. 
 
+- ...
+
 #### Interpreters
 
-- Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
+Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
   - Efficiency:
     - binary numbers instead of successor numbers
     - call by value instead of call by name
@@ -135,4 +140,4 @@ Some items require more work than others. Feel free to expand interesting topics
 
 #### Other Topics
 
--  see also the Discussion Topics in the [README](README.md) ... and let me know if you have your own ideas ... the blog is a space where you can be creative ...
+See also the Discussion Topics in the [README](README.md) ... and let me know if you have your own ideas ... the blog is a space where you can be creative ...
