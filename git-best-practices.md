@@ -6,6 +6,7 @@
 
 Have a look at this [tutorial](https://guides.github.com/activities/hello-world/). Let me know if there are problems or if you have other helpful sources.
 
+
 ## Git best practices
 
 I collect here some lessons learned from using git for [assignments](assignments.md). 
@@ -23,12 +24,13 @@ Proper use of git will be considered for grading. Complete solutions uploaded to
    - Run `git status`. If you see under `Untracked files` names that you don't recognize, they are likely machine generated files. Do not track those. Rather add these names to a file named `.gitignore` at the root of your repo.
   - Build up your `.gitignore` incrementally using `git status` and add files you do not want to track to `.gitignore` step by step. You can start from [my .gitignore](https://github.com/alexhkurz/programming-languages-2020/blob/master/.gitignore) file.
 
-- Do not create different versions of files by copying them. Use branches. 
+- Do not create different versions of files by copying them. [Use branches](http://shafiul.github.io/gitbook/3_basic_branching_and_merging.html). 
 
 ## Further reading
 
 The links below are written for more complex projects than a typical assignment, but it cannot harm to have a look:
 
+- [The Git Community Book](http://shafiul.github.io/gitbook/index.html)
 - [Commit Often, Perfect Later, Publish Once: Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
 - [Examples of gitignore files](https://github.com/github/gitignore)
 -  Some pages from 
@@ -41,3 +43,7 @@ The links below are written for more complex projects than a typical assignment,
       - [Contributing to a Project (fork)](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project) (probably not relevant for us)
 - Further information:
   - [How do I update a GitHub forked repository?](https://stackoverflow.com/questions/7244321/how-do-i-update-a-github-forked-repository)
+
+## Some commands
+
+- `git reset --hard` [throws away all uncommitted local changes](http://shafiul.github.io/gitbook/4_undoing_in_git_-_reset,_checkout_and_revert.html)

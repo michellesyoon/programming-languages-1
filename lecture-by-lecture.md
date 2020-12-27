@@ -5,11 +5,15 @@
 
 **Quick Links**: [Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... [Haskell projects](haskell-projects.md) ... [videos](videos.md)
 
-## Summer Preparations
+### What we (will) have learned
+
+I wrote the following in order that students can self-check whether they achieved the learning outcomes, but you can also read them first to get a sense of where we are going.
+
+What we have learned in [Part 0](what-we-have-learned-0.md) and [Part 1](what-we-have-learned-1.md) and [Part 2](what-we-have-learned-2.md) and [Part 3](what-we-have-learned-3.md) and [Part 4](what-we-have-learned-4.md) and [Part 5](what-we-have-learned-5.md) and [Part 6](what-we-have-learned-6.md).
+
+### Part 0: Summer Preparations
 
 [First Haskell Steps](https://hackmd.io/@alexhkurz/SJgHGZ_nw)
-
-## Lecture by Lecture 
 
 ### Part 1: A Calculator in Haskell
 
