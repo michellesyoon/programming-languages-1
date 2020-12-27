@@ -77,7 +77,9 @@ For example, if you write a Haskell tutorial, here are some things I would like 
 - **B:** Demonstrates good understanding of Haskell. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Demonstrates a very good understanding of Haskell. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of substantial interest to a beginning Haskeller. Makes interesting connections between the practical and theoretical parts of the course. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project (but there are many possibilities here ... get in touch to discuss more.)
 
-Spelling, typesetting, layout, and structure will also be taken into account for grading. Does the form support the understanding of (or does it distract from) the content?
+Spelling, typesetting, layout, and structure will also be taken into account for grading. Does the form support the understanding of (or does it distract from) the content? 
+
+Maybe another way to say what an "A" blog is: You would be proud to add it to your resume.
 
 Again, if you have your own ideas, let me know. I am happy to adapt these guidelines if they do not fit what you have in mind.
 

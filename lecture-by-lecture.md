@@ -11,7 +11,7 @@
 
 ## Lecture by Lecture 
 
-#### Introduction: A Calculator in Haskell
+### Part 1: A Calculator in Haskell
 
 In this part, we will learn about parsing and write our first interpreter for a programming language that only has arithmetic expressions.
 
@@ -25,8 +25,14 @@ In this part, we will learn about parsing and write our first interpreter for a 
 
 [Assignment 1](assignments.md): Haskell, recursion over abstract data types, a calculator.
 
+### Part 2: Syntax, Semantics, Soundness, Completeness
 
-#### Lambda Calculus
+- [Syntax and Semantics](https://hackmd.io/r_6EY8pVR7OdijRAEFNKvg) 
+- [Meaning in Syntax](https://hackmd.io/khfFd9N2RRWau8o-1ACc_g) 
+- [Normalisation by Evaluation](https://hackmd.io/@alexhkurz/BkQ7VEp_r)
+
+
+### Part 3: Lambda Calculus
 
 - **Syntax of Lambda Calculus** ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
 - **Semantics of Lambda Calculus** ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) ... [video review](https://youtu.be/for3Meg1Lbc)
@@ -37,16 +43,12 @@ In this part, we will learn about parsing and write our first interpreter for a 
   - [Parsing Lambda Calculus Expressions 2](https://youtu.be/yls1NEUlzZA)
   - [Operational Semantics of Lambda Calculus](https://youtu.be/h4aT42t7v9c)
   - [Reducing Lambda Expressions](https://youtu.be/for3Meg1Lbc). While watching this video, do the reductions in your own text editor. Frequently stop the video and guess the next step. Work along, it is all just the beta rule.
-  - [Fixed Point Combinator](https://youtu.be/XvDOwbSh3xE)
+  - [Extensions of lambda-calculus](https://hackmd.io/@alexhkurz/rJEeYqZtw) ... video review [Fixed Point Combinator](https://youtu.be/XvDOwbSh3xE)
 
-[Assignment 2, Part 1](assignments.md): An interpreter for lambda calculus.
+[Assignment 2, Part 1](assignments.md): An interpreter for lambda calculus. The [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md). I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 
 
-#### Blog
-
-Deadline (tba) for a first draft of the first parts of your [blog](blog.md) (5 weeks = 5 entries). You will receive up to 5 points "on completion" (no grading for content yet), so you will have more time to flesh this out and polish it.
-
-#### Rewriting as a Model of Computation
+### Part 4: Rewriting as a Model of Computation
 
 Lectures:
 - [Rewriting: Examples](https://hackmd.io/@alexhkurz/rkzITG4nD). Abstract Reduction Systems: [Definition and Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v)
@@ -59,25 +61,15 @@ Supplementary materials:
 - Video on [merge sort](https://youtu.be/W2CknJGgzr0)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
-#### Midterm 
 
-(Nov 3 in 2020)
-
-#### Assignment 2
-
-An interpreter for a functional programming language. Extending lambda calculus with numbers, conditionals, recursion and lists.
-
-- [Extensions of lambda-calculus](https://hackmd.io/@alexhkurz/rJEeYqZtw) ... video review on the [fixed point combinator](https://youtu.be/XvDOwbSh3xE).
-- The [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md). I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
-
-#### Program Verification 
+### Part 5: Program Verification 
 
 There are many approaches to software reliability. You will be familiar with testing, which is part of the wider area of program analysis. In this section of the course we will look at program verification.
 
 - [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) ... [Exercises](https://hackmd.io/@alexhkurz/rkhVZNzjH)
 
 
-#### Assignment 3
+### Part 6: Imperative Programming 
 
 An interpreter for an imperative programming language.
 
@@ -87,14 +79,9 @@ An interpreter for an imperative programming language.
 
 In previous years, this course was more theoretical and less focussed on Haskell. I put here some material I dropped for 2020. I hope to bring back some of it for 2021.
 
-#### More on Syntax and Semantics
-
-- [Syntax and Semantics](https://hackmd.io/r_6EY8pVR7OdijRAEFNKvg) and  [Meaning in Syntax](https://hackmd.io/khfFd9N2RRWau8o-1ACc_g) 
-
 #### Logic and Reasoning 
 
 - [Rules of logic](https://hackmd.io/xJ8NOiK4S5qnYvEI85bHig)
-- [Normalisation by Evaluation](https://hackmd.io/w9RLzXmcS86U4HVAQi5Lqg)
 - [Induction and Equational Reasoning](https://hackmd.io/02w2FuLsT_uKYQxkPSdvtw)
 - [Theorem Proving](https://hackmd.io/JrBBURefROGD1xMN44Zivw)
 
