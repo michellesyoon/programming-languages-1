@@ -1,7 +1,7 @@
 
 # Course Materials
 
-(adapted from last year ... subject to change ... times are estimates)
+(under construction ... currently being adapted for 2021 ... subject to change ... any times are estimates)
 
 **Quick Links**: [Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... [Haskell projects](haskell-projects.md) ... [videos](videos.md)
 
@@ -29,12 +29,12 @@ In this part, we will learn about parsing and write our first interpreter for a 
 
 [Assignment 1](assignments.md): Haskell, recursion over abstract data types, a calculator.
 
-### Part 2: Syntax, Semantics, Soundness, Completeness
+### Part 2: Semantics of Programming Languages
 
-- [Syntax and Semantics](https://hackmd.io/r_6EY8pVR7OdijRAEFNKvg) 
-- [Meaning in Syntax](https://hackmd.io/khfFd9N2RRWau8o-1ACc_g) 
+- [Operational and Denotational Semantics](https://hackmd.io/@alexhkurz/Hkf6BTL6P) 
+- [Computation as Proof](https://hackmd.io/@alexhkurz/SkYfWCU6w) 
 - [Normalisation by Evaluation](https://hackmd.io/@alexhkurz/BkQ7VEp_r)
-
+- Optional: [Adding Variables]()
 
 ### Part 3: Lambda Calculus
 
