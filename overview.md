@@ -4,9 +4,9 @@
 
 The course will have a practical and a theoretical component.
 
-- *The theoretical component* will teach some of the mathematics underpinning the design and use of programming languages. These will include some of the basics of logic, rewriting, ordered structures, universal algebra, type theory, and category theory.
+- *The theoretical component* will teach some of the mathematics underpinning the design of programming languages. These will include some of the basics of logic, rewriting, ordered structures, universal algebra, and category theory (type theory will be deferred to next semester's course on compiler construction). Just enough theory to help the writing of interpreters and to gain an outlook on some of the questions guiding programming languages research.
 
-- *The practical component* will be about building a small programming language. We will start with the smallest practical programming language known as lambda calculus and then extend it with features. There will be room for invention and adventure if you feel like it. But there will also be many guided exercises.
+- *The practical component* will be about building interpreters for small programming languages. We will start with a calculutor, that is, an interpreter for the language of high-school arithmetic, then go on to the smallest proper programming language known as lambda calculus. Lambda calculus provides variables and functions and other programming languages can be seen as extensions of lambda calculus. Thus, once we have an interpreter for lambda caclulus, we will approximate more realistic programming languages by extending lambda calculus: conditionals, recursion, data types, assignment, while loops, addresses (pointers), memory allocation, dereferencing, arrays. There will be room for invention and adventure if you feel like it. But there will also be many guided exercises.
 
 #### Detailed Description
 
