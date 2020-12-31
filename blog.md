@@ -55,9 +55,6 @@ Your blog **should**
 - make sense to readers who do not take this course ... don't talk from student to professor but rather from professional to professional;
 - you can draw on all kind of resources, but always make your own examples, observations, conclusions;
 - interleave narrative with code (all code must be tested and run, make sure the reader knows how to run your code; consider using a service such as [repl.it](https://repl.it/@alexhkurz/fibonacci#main.hs));
-
-<iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@amasad/PitifulLastingWhoopingcrane?lite=true"></iframe>
-
 - finish each blog with list of references and recommendations for further reading;
 - ...
 
