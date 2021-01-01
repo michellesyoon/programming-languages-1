@@ -1,7 +1,7 @@
 
 # Course Materials
 
-(under construction ... currently being adapted for 2021 ... subject to change ... any times are estimates)
+(under construction ... currently being adapted for 2021 ... subject to change)
 
 **Quick Links**: [Installing Haskell](https://hackmd.io/@alexhkurz/Hk86XnCzD) ... [BNFC](BNFC-installation.md) ... [Haskell projects](haskell-projects.md) ... [videos](videos.md)
 
@@ -40,6 +40,8 @@ In this part, we will learn about parsing and write our first interpreter for a 
 
 - **Syntax of Lambda Calculus** ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
 - **Semantics of Lambda Calculus** ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) ... [video review](https://youtu.be/for3Meg1Lbc)
+- **Typed Lambda Calculus** ... [notes](https://hackmd.io/@alexhkurz/S1Sopqo6w) ...
+- **Polymorphism** ... [to be written](https://hackmd.io/IdPfOHUBQnW2wLLqcvKAbQ)
 
 - Videos:
   - [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
@@ -52,7 +54,7 @@ In this part, we will learn about parsing and write our first interpreter for a 
 [Assignment 2, Part 1](assignments.md): An interpreter for lambda calculus. The [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md). I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 
 
-### Part 4: Rewriting as a Model of Computation
+### Part 4: Rewriting
 
 Lectures:
 - [Rewriting: Examples](https://hackmd.io/@alexhkurz/rkzITG4nD). Abstract Reduction Systems: [Definition and Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v)

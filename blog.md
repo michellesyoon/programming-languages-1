@@ -27,7 +27,7 @@ Here are some tips:
 - Link your blog entries from the README.
 - Never paste naked urls into md, use `[name](url)`.
 - Did yo spellcheck your blogs?
-- Typeset code as code, not text.
+- Typeset code as code, with syntax highlighting.
 - Add a list of references at the end of each blog.
 
 Personally, I am more interested in content than in form, but form is important as well. Just ask yourself whether the form supports the understanding of the content or whether it distracts from what you want to achieve. For example, spelling mistakes are always distracting. And long paragraphs are almost always bad form. 
@@ -36,10 +36,12 @@ You can take my github repo for this course as a guideline for your blog, but I 
 
 ## Writing Tips
 
-The blog is not an English assignment, but I do remmend to read this classic and entertaining [article by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit). 
+The blog is not an English assignment, but I find this classic and entertaining [advice by Orwell](https://www.orwell.ru/library/essays/politics/english/e_polit) always useful. 
 - To avoid what Orwell calls "this mixture of vagueness and sheer incompetence" is particularly important in technical writing. 
 - "A scrupulous writer, in every sentence that he writes, will ask himself at least four questions, thus: What am I trying to say? What words will express it? What image or idiom will make it clearer? Is this image fresh enough to have an effect? And he will probably ask himself two more: Could I put it more shortly? Have I said anything that is avoidably ugly?" Perhaps metaphors play a lesser role in our kind of technical writing, but if you replace "image" above by "example", Orwell's remarks are again exactly to the point.
-- Orwell recommends to "think wordlessly, and then, [...] describe the thing you have been visualising"   and "to put off using words as long as possible and get one's meaning as clear as one can through pictures" first. 
+- Orwell recommends to avoid writing something just because it sounds good. Instead, 
+    - "put off using words as long as possible and get one's meaning as clear as one can through pictures".
+    - first "think wordlessly, and then, [...] describe the thing you have been visualising". 
 
 
 
@@ -115,8 +117,7 @@ Some items require more work than others. Feel free to expand interesting topics
   - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 -  If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is a big topic and would be worth a whole series of blog posts.)
 - Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
-- Do one (or more) of the [exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw) labelled "Optional (but interesting)". (Essential exercises are not suitable for the blog.)
-- ...
+- The article [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes argues that the advantage of functional programming over imperative programming stems from the increased modularity/compositionality afforded by higher-order functions and laziness. Summarize and evaluate this argument.
 
 #### Theory
 
@@ -129,6 +130,12 @@ Some items require more work than others. Feel free to expand interesting topics
 - Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and Hoare triples. Explore.
 - [Reversible computing](https://hackmd.io/@alexhkurz/H1PIwnSqw).
 - Interactive theorem provers (Isabelle, Coq, Agda, Lean, ...) are functional programming languages in which one can prove mathematical theorems. Explore.
+- ...
+
+#### Practical Theory
+
+- Various tools can be implemented to better understand theoretical concepts. For example a series of programs that can be run in the browser in order to analyse the kind of string rewriting exercises we have used for rewriting theory.
+
 - ...
 
 #### General Programming Languages Topics

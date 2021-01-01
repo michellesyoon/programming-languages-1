@@ -8,6 +8,8 @@ After this course you should be able to develop your own small programming langu
 
 Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. Our second programming language will be the smallest functional programming language, lambda calculus. Finally, we extend this to a mixed-paradigm language including assignments, loops, and pointers.
 
+On the way, we will introduce various theoretical concepts that underpin Programming Languages.
+
 **Notes and Materials** for a course on Programming Languages at Chapman University.
 
 - [Syllabus](syllabus.md)  
@@ -79,6 +81,7 @@ I would let the modern history of programming languages begin with Fortran and L
 
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
+
 - [the No-Code Software Revolution](https://medium.com/inc./welcome-to-the-no-code-software-revolution-6b75ee967df7). Will building apps without writing code change what we understand by "programming language"?
 
 - [rise4fun](https://rise4fun.com/) has a long list of software engineering tools for program analysis and verification that you can run in your webbrowser.
@@ -97,10 +100,6 @@ None of this is required reading, but all of it is part of the wider landscape i
 
 - Video: [Modelling Pandemics in Julia](https://www.youtube.com/watch?v=7zr2qnud4XM&feature=youtu.be) features many of the topics that appear in our course. 
 
-- Tony Hoare: 
-  - [1980 Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/1283920.1283936) has a lot of interesting anecdotes about Quicksort, Algol, the switch statement, early compilers, operating systems, Hoare logic. Also some valuable general lessons about software engineering. I collected some of my [favourite quotes](hoare-1980-quotes.md).
-
-  - Video: [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/) 2009. picks up some of the same themes, but focuses on pointers and memory management, on compile-time vs run-time. "I don't care about the subscript error, I want it to run." (18:00).The discussion around (24:27) about disjoint unions is related to `Maybe` in Haskell and then to abstract syntax trees. Difficulty of proofs of program correctness as an objective measure of the quality of a program language (32:32). Programming language design is driven by the need to fight viruses (37:40). "The virus will find a case that is not likely to arise". "If it hadn't been for the get routine of C, we might have had no malware". (39:25).
 
 - [Lego Turing Machine](https://vimeo.com/44202270)
 
@@ -114,7 +113,12 @@ None of this is required reading, but all of it is part of the wider landscape i
 
 - [Compiling Lisp to JavaScript From Scratch in 350 LOC](https://gilmi.xyz/blog/post/2016/10/14/lisp-to-js) 
 
-- Videos and podcasts:
+## Pioneers of Programming Languages 
+
+(send me your favourite links to add):
+
+  - [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey), the creator of Clojure, says "State is Never Simple" in [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/) at 31m35s and following. The morale is: It is easier not to complect if coding in a functional language. Memorable quotes: "By stateful I mean that every time you ask the same question you get a different answer." "I don't know,I don't want to know." "Represent data by data." "Easy is not simple."
+
   - [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup), the creator of C++, talks about [The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err). 
 
   - [Simon Peyton Jones](https://en.wikipedia.org/wiki/Simon_Peyton_Jones), one of the inventors of Haskell, talks about [Functional Programming Languages and the Pursuit of Laziness](https://www.youtube.com/watch?v=SqWDAo1Jnyc). 
@@ -122,8 +126,12 @@ None of this is required reading, but all of it is part of the wider landscape i
   - [Bob Martin](https://en.wikipedia.org/wiki/Robert_C._Martin), one of the inventors of agile computing talks about the [The Future of Programming](https://www.youtube.com/watch?v=ecIWPzGEbFc).
 
   - [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay), one of the inventors of personal computing and object-oriented programming, talks about how the invention of personal computing goes back to a project of reforming school education in [Inventing the Future](https://www.youtube.com/watch?v=M6ZHxUwqPVw). "The best way to predict the future is to invent it."
+  - [Tony Hoare](https://en.wikipedia.org/wiki/Tony_Hoare): 
+    - [1980 Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/1283920.1283936) has a lot of interesting anecdotes about Quicksort, Algol, the switch statement, early compilers, operating systems, Hoare logic. Also some valuable general lessons about software engineering. I collected some of my [favourite quotes](hoare-1980-quotes.md).
 
-  - ...
+    - Video: [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare/) 2009. picks up some of the same themes, but focuses on pointers and memory management, on compile-time vs run-time. "I don't care about the subscript error, I want it to run." (18:00).The discussion around (24:27) about disjoint unions is related to `Maybe` in Haskell and then to abstract syntax trees. Difficulty of proofs of program correctness as an objective measure of the quality of a program language (32:32). Programming language design is driven by the need to fight viruses (37:40). "The virus will find a case that is not likely to arise". "If it hadn't been for the get routine of C, we might have had no malware". (39:25).
+
+  -  The [ACM Turing Award Winner Interview Playlist](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO) has some great interviews ... I wish I had found the time to watch them all. 
 
 ## Acknowledgements
 
