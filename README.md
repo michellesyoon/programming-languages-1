@@ -2,13 +2,13 @@
 
 (to be adapted from 2020 ... some links may be broken ... to run next time in Fall 2021)
 
-You already know some programming languages, most likely Python, Java or C++. But did you ever wonder how to design your own programming language? How would you even get started on a project like this? 
+You already know some programming languages (such as Python, Java, or C++) and you are able to teach yourself a new one. But did you ever wonder how to design your own programming language? How would you even get started on a project like this? 
 
 After this course you should be able to develop your own small programming language. We will learn how to define the syntax of a programming language using a context-free grammar, how to use a parser generator and how to write an interpreter by recursion on abstract syntax.
 
-Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. Our second programming language will be the smallest functional programming language, lambda calculus. Finally, we extend this to a mixed-paradigm language including assignments, loops, and pointers.
+Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. Our second example, will be the smallest proper programming language, lambda calculus. Finally, we extend lambda calculus to a mixed-paradigm language including higher-order functions, recursion, assignments, loops, pointers, and arrays.
 
-On the way, we will introduce various theoretical concepts that underpin Programming Languages.
+On the way, we will introduce various theoretical concepts that underpin Programming Languages and open windows to topics in programming languages research.
 
 **Notes and Materials** for a course on Programming Languages at Chapman University.
 
