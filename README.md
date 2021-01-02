@@ -117,6 +117,7 @@ None of this is required reading, but all of it is part of the wider landscape i
 
 (send me your favourite links to add):
 
+  - Robin Milner. [Turing Award Lecture](https://dl.acm.org/doi/pdf/10.1145/151233.151240).
   - [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey), the creator of Clojure, says "State is Never Simple" in [Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy/) at 31m35s and following. The morale is: It is easier not to complect if coding in a functional language. Memorable quotes: "By stateful I mean that every time you ask the same question you get a different answer." "I don't know,I don't want to know." "Represent data by data." "Easy is not simple."
 
   - [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup), the creator of C++, talks about [The Essence of C++](https://www.youtube.com/watch?v=86xWVb4XIyE&feature=emb_rel_err). 
