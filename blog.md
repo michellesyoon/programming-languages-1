@@ -14,13 +14,15 @@ For more detailed ideas and suggestions see below.
 
 The minimal way to set up a blog is as follows:
 
-- Create a public github repository.
+- Create a github repository. I leave it to you whether you want to keep it private, but if you are aiming for an "A"-blog you should also publish it.
 - Add a `README.md`.
 - Make `.md` files for each blog entry. Link them from the README.
 
+You can also use [github pages](https://pages.github.com/), which offers additional features such as a number of themes to choose from.
+
 To learn markdown, have a look at this  [Markdown Guide](https://www.markdownguide.org/basic-syntax) and one of the many [cheat sheets](https://www.markdownguide.org/cheat-sheet). Markdown is easy. And it is what I use for this course, so you can also look at my sources. Btw, you can use all of html in markdown. It makes the writing more cumbersome, but also gives you additional options. 
 
-GitHub and markdown is simple to use and I require this as the default for your blog. If you want to do something more sophisticated that is fine, but get in touch with me before you make this decision.
+GitHub and markdown is simple to use and I require this as the default for your blog. If you want to use something more sophisticated I will support this, but get in touch with me before you make any decision.
 
 Here are some tips:
 

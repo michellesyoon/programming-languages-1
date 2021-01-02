@@ -11,39 +11,42 @@ I wrote the following in order that students can self-check whether they achieve
 
 What we have learned in [Part 0](what-we-have-learned-0.md) and [Part 1](what-we-have-learned-1.md) and [Part 2](what-we-have-learned-2.md) and [Part 3](what-we-have-learned-3.md) and [Part 4](what-we-have-learned-4.md) and [Part 5](what-we-have-learned-5.md) and [Part 6](what-we-have-learned-6.md).
 
-### Part 0: Summer Preparations
+### Part 0: Functional Programming
 
 [First Haskell Steps](https://hackmd.io/@alexhkurz/SJgHGZ_nw)
 
-### Part 1: A Calculator in Haskell
+### Part 1: A Calculator in Haskell 
 
 In this part, we will learn about parsing and write our first interpreter for a programming language that only has arithmetic expressions.
 
 - **A Calculator in Haskell (Abstract Syntax)** ... [notes](https://hackmd.io/@alexhkurz/SyxKCkR6U)
 - **A Calculator in Haskell (Concrete Syntax)** ...  [notes](https://hackmd.io/@alexhkurz/HJVtVl068)
-- Videos:
+- [Assignment 1](assignments.md): Haskell, recursion over abstract data types, a calculator.
+
+Videos:
   - [gcd and Euclid's algorithm](https://youtu.be/ZcJMj0antos)
   - [Recursion over algebraic data types in Haskell](https://youtu.be/2YLfJvOtLwA)
   - [Precedence levels in CFGs](https://youtu.be/jf1xhZSpCvg)  
   - [Uniqueness of parse trees](https://youtu.be/3ZLkPwB_c9g) 
 
-[Assignment 1](assignments.md): Haskell, recursion over abstract data types, a calculator.
 
-### Part 2: Semantics of Programming Languages
+### Part 2: Semantics of Programming Languages (1.5)
 
 - [Operational and Denotational Semantics](https://hackmd.io/@alexhkurz/Hkf6BTL6P) 
 - [Computation as Proof](https://hackmd.io/@alexhkurz/SkYfWCU6w) 
 - [Normalisation by Evaluation](https://hackmd.io/@alexhkurz/BkQ7VEp_r)
 - Optional: [Adding Variables]()
 
-### Part 3: Lambda Calculus
+### Part 3: Lambda Calculus (3)
 
 - **Syntax of Lambda Calculus** ... [video preview](https://youtu.be/D0kH1BpNr14) ... [notes](https://hackmd.io/@alexhkurz/S1D0yP8Bw) ... video reviews on parsing [1](https://youtu.be/eYstx7uuE6c) and [2](https://youtu.be/yls1NEUlzZA)
+- [Variables, Binding, Scope and Substitution](https://hackmd.io/@alexhkurz/SkQzDC6n7)
 - **Semantics of Lambda Calculus** ...[video preview](https://youtu.be/h4aT42t7v9c) ... [notes](https://hackmd.io/@alexhkurz/H1e4Nv8Bv) ... [video review](https://youtu.be/for3Meg1Lbc)
+- [Assignment 2, Part 1](assignments.md): An interpreter for lambda calculus. The [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md). I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 - **Typed Lambda Calculus** ... [notes](https://hackmd.io/@alexhkurz/S1Sopqo6w) ...
 - **Polymorphism** ... [to be written](https://hackmd.io/IdPfOHUBQnW2wLLqcvKAbQ)
 
-- Videos:
+Videos:
   - [Syntax of Lambda Calculus](https://youtu.be/D0kH1BpNr14)
   - [Parsing Lambda Calculus Expressions 1](https://youtu.be/eYstx7uuE6c)
   - [Parsing Lambda Calculus Expressions 2](https://youtu.be/yls1NEUlzZA)
@@ -51,10 +54,9 @@ In this part, we will learn about parsing and write our first interpreter for a 
   - [Reducing Lambda Expressions](https://youtu.be/for3Meg1Lbc). While watching this video, do the reductions in your own text editor. Frequently stop the video and guess the next step. Work along, it is all just the beta rule.
   - [Extensions of lambda-calculus](https://hackmd.io/@alexhkurz/rJEeYqZtw) ... video review [Fixed Point Combinator](https://youtu.be/XvDOwbSh3xE)
 
-[Assignment 2, Part 1](assignments.md): An interpreter for lambda calculus. The [Work Cycle](https://github.com/alexhkurz/programming-languages-2020/blob/master/Lab1-Lambda-Calculus/README.md). I use scripts like [lambdanat](lambdanat) to automate part of the work cycle. Feel free to adapt to your own needs.
 
 
-### Part 4: Rewriting
+### Part 4: Rewriting 
 
 Lectures:
 - [Rewriting: Examples](https://hackmd.io/@alexhkurz/rkzITG4nD). Abstract Reduction Systems: [Definition and Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v)
@@ -67,17 +69,18 @@ Supplementary materials:
 - Video on [merge sort](https://youtu.be/W2CknJGgzr0)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
+### Part 5: Imperative Programming 
 
-### Part 5: Program Verification 
+An interpreter for an imperative programming language.
+
+
+### Part 6: Verification 
 
 There are many approaches to software reliability. You will be familiar with testing, which is part of the wider area of program analysis. In this section of the course we will look at program verification.
 
 - [Hoare Logic](https://hackmd.io/Df57tnuCSGaW8wqqsl57FQ) ... [Exercises](https://hackmd.io/@alexhkurz/rkhVZNzjH)
 
 
-### Part 6: Imperative Programming 
-
-An interpreter for an imperative programming language.
 
 ---
 
