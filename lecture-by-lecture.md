@@ -7,9 +7,7 @@
 
 ### What we (will) have learned
 
-I wrote the following in order to clarify the high-level learning outcomes.
-
-What we have learned in [Part 0](what-we-have-learned-0.md) and [Part 1](what-we-have-learned-1.md) and [Part 2](what-we-have-learned-2.md) and [Part 3](what-we-have-learned-3.md) and [Part 4](what-we-have-learned-4.md) and [Part 5](what-we-have-learned-5.md) and [Part 6](what-we-have-learned-6.md).
+To clarify the learning outcomes: What we have learned in [Part 0]() and [Part 1](what-we-have-learned-1.md) and [Part 2](what-we-have-learned-2.md) and [Part 3](what-we-have-learned-3.md) and [Part 4](what-we-have-learned-4.md) and [Part 5](what-we-have-learned-5.md) and [Part 6](what-we-have-learned-6.md).
 
 ### Part 0: Functional Programming
 

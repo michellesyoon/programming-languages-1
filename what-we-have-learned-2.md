@@ -1,9 +1,8 @@
-
 ## What we have learned in Part 2
 
 We have learned that one can capture meaning by quotienting by an equivalence relation.
 
-We have used this idea to explain the difference between operational and denotational semantics.
+We have used this idea to explain the relationship between operational and denotational semantics.
 
 Denotational semantics maps syntax into a mathematical domain that we already understand from studying its mathematical properties. 
 

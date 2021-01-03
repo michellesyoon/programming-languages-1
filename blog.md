@@ -1,6 +1,6 @@
 # Blog    
 
-Deadline: tba.
+Deadline: First day after Thanksgiving break. (Tip: Start your blog in the summer break.)
 
 ## Introduction
 
@@ -90,7 +90,7 @@ The grading guidelines below are somewhat tailored to a blog that concentrates m
 
 - **D:** Demonstrates *basic* familiarity with Haskell and/or other aspects of Programming Languages.  
 - **C:** Demonstrates *adequate* familiarity with Haskell and/or other aspects of Programming Languages. Discusses interesting features of Haskell and illustrates them with their own programs. 
-- **B:** Demonstrates *good* understanding of Haskell and/or other aspects of Programming Languages. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class. Can be recommended to a beginning Haskeller as a first introduction. Makes connections between the practical and theoretical parts of the course. 
+- **B:** Demonstrates *good* understanding of Haskell and/or other aspects of Programming Languages. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class and standard resources such as Wikipedia. Can be recommended to a beginning Haskeller as a resource. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Is inspired by the course material but takes an independent perspective and *stands on its own*. Demonstrates a very good understanding of Haskell and/or other aspects of Programming Languages. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of substantial interest to a beginning Haskeller or software engineer. Makes interesting connections between the practical and theoretical aspects. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project (but there are many possibilities here ... get in touch to discuss more.)
 
 Some further considerations:
@@ -110,34 +110,38 @@ Some items require more work than others. Feel free to expand interesting topics
 
 #### Haskell
 
--  Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better.
-- Benchmark the same algorithms in Python and Haskell. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run. Evaluate your findings. (A good blog is not only reporting on reproducible experiments but also draws some interesting conclusions.)
+-  Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better. Cover some of the topics we only touch upon in the lectures such as IO, error messages, type classes, monads, ... even just doing IO via the console may hold some surprises ... 
+- Benchmark the same algorithms in (compiled!) Haskell and some other programming language. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run. Evaluate your findings, explore what others have done, compare. (A good blog is not only reporting on reproducible experiments but also draws some interesting conclusions.)
 - Explain how to use docker to setup Haskell and bnfc. Make a dockerfile that we could use to run Haskell, bnfc and the assignments.
 -  I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
 - Haskell and $\lambda$-calculus: 
   - Write the same program in both languages and compare.
   - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
 -  If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is a big topic and would be worth a whole series of blog posts.)
-- Haskell is lazy, which is interesting for programming with infinite data structures such as streams.
-- The article [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes argues that the advantage of functional programming over imperative programming stems from the increased modularity/compositionality afforded by higher-order functions and laziness. Summarize and evaluate this argument.
+- Haskell is lazy, which is interesting for programming with infinite data structures such as streams ... I should add a link to get your started ... 
+- The article [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes argues that the advantage of functional programming over imperative programming stems from the increased modularity/compositionality afforded by higher-order functions and laziness. Summarize and evaluate this argument (don't forget to research potential disadvantages of laziness).
 
-#### Theory
+#### Theory (Mathematics)
 
 - Why is lambda-calculus Turing complete? How could one simulate a Turing-machine in lambda-calculus? What about the converse?
 - What is the halting problem? Why is it undecidable? What are other undecidable problem?
 - What is combinatory logic? Is combinatory logic Turing complete? 
-- Beta-reduction is an important computational mechanism. Explore how to efficiently implement it using de Bruin indices.
-- Can we prove confluence automatically? What is the Knuth-Bendix algorithm?
 - Not all terminating programs can be proved terminating with a termination measure that takes values in natural numbers. How can we go beyond this?
-- Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and Hoare triples. Explore.
 - [Reversible computing](https://hackmd.io/@alexhkurz/H1PIwnSqw).
 - Interactive theorem provers (Isabelle, Coq, Agda, Lean, ...) are functional programming languages in which one can prove mathematical theorems. Explore.
 - ...
 
-#### Practical Theory
+####  Theory (Algorithms)
+
+- Rewriting: Choose one of your favourite algorithms and describe it as a rewrite system. 
+- Beta-reduction is an important computational mechanism. Explore how to efficiently implement it using de Bruin indices.
+- Can we prove confluence automatically? What is the Knuth-Bendix algorithm?
+- ...
+
+#### Theory (Software Tools)
 
 - Various tools can be implemented to better understand theoretical concepts. For example a series of programs that can be run in the browser in order to analyse the kind of string rewriting exercises we have used for rewriting theory.
-
+- Some modern programming languages such as [Dafny](https://hackmd.io/@alexhkurz/SJyBbDQjv) implement verification of termination and Hoare triples. Explore.
 - ...
 
 #### General Programming Languages Topics
@@ -166,4 +170,4 @@ Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit]
 
 #### Other Topics
 
-See also the Discussion Topics in the [README](README.md) ... and let me know if you have your own ideas ... the blog is a space where you can be creative ...
+See also the Discussion Topics in the [README](README.md) ... and let me know if you have your own ideas ... **the blog is a space where you can be creative** ...

@@ -81,6 +81,7 @@ I would let the modern history of programming languages begin with Fortran and L
 
 None of this is required reading, but all of it is part of the wider landscape in which this course is situated. Many of these links are to talks, videos, articles and blogs that do not represent carefully researched peer-reviewed authoritative expert consensus. Do not take opinions for granted but as an invitation to start a discussion.
 
+- Domain Specific Languages (DSLs) play an increasing role in industry. Haskell is a good language to develop DSLs. For an example see [Ivory](https://raw.githubusercontent.com/GaloisInc/smaccmpilot-experiencereport/master/embedded-experience.pdf).
 
 - [the No-Code Software Revolution](https://medium.com/inc./welcome-to-the-no-code-software-revolution-6b75ee967df7). Will building apps without writing code change what we understand by "programming language"?
 
