@@ -9,11 +9,11 @@
 
 To clarify the learning outcomes: What we have learned in [Part 0]() and [Part 1](what-we-have-learned-1.md) and [Part 2](what-we-have-learned-2.md) and [Part 3](what-we-have-learned-3.md) and [Part 4](what-we-have-learned-4.md) and [Part 5](what-we-have-learned-5.md) and [Part 6](what-we-have-learned-6.md).
 
-### Part 0: Functional Programming
+### Part 0: Functional Programming (0)
 
 [First Haskell Steps](https://hackmd.io/@alexhkurz/SJgHGZ_nw)
 
-### Part 1: A Calculator in Haskell 
+### Part 1: A Calculator in Haskell (2)
 
 In this part, we will learn about parsing and write our first interpreter for a programming language that only has arithmetic expressions.
 
@@ -28,11 +28,12 @@ Videos:
   - [Uniqueness of parse trees](https://youtu.be/3ZLkPwB_c9g) 
 
 
-### Part 2: Semantics of Programming Languages (1.5)
+### Part 2: Semantics of Programming Languages (2)
 
+- [What is Abstraction?](https://hackmd.io/@alexhkurz/HJONiNfCw)
 - [Operational and Denotational Semantics](https://hackmd.io/@alexhkurz/Hkf6BTL6P) 
-- [Computation as Proof](https://hackmd.io/@alexhkurz/SkYfWCU6w) 
-- [Normalisation by Evaluation](https://hackmd.io/@alexhkurz/BkQ7VEp_r)
+- Computation as Proof [](https://hackmd.io/@alexhkurz/SkYfWCU6w) 
+- Normalisation by Evaluation [](https://hackmd.io/@alexhkurz/BkQ7VEp_r)
 - Optional: [Adding Variables]()
 
 ### Part 3: Lambda Calculus (3)
@@ -54,7 +55,7 @@ Videos:
 
 
 
-### Part 4: Rewriting 
+### Part 4: Rewriting (2)
 
 Lectures:
 - [Rewriting: Examples](https://hackmd.io/@alexhkurz/rkzITG4nD). Abstract Reduction Systems: [Definition and Examples](https://hackmd.io/@alexhkurz/BJfvFVK8v)
@@ -67,12 +68,12 @@ Supplementary materials:
 - Video on [merge sort](https://youtu.be/W2CknJGgzr0)
 - [Exercises](https://hackmd.io/@alexhkurz/BJ23jmpIw)
 
-### Part 5: Imperative Programming 
+### Part 5: Imperative Programming (1)
 
 An interpreter for an imperative programming language.
 
 
-### Part 6: Verification 
+### Part 6: Verification (2)
 
 There are many approaches to software reliability. You will be familiar with testing, which is part of the wider area of program analysis. In this section of the course we will look at program verification.
 

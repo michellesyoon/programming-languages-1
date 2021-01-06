@@ -28,8 +28,8 @@ Here are some tips:
 
 - Link your blog entries from the README.
 - Never paste naked urls into md, use `[name](url)`.
-- Did yo spellcheck your blogs?
-- Typeset code as code, with syntax highlighting.
+- Did yo spellcheck your blogs? Does form/layout support content?
+- Typeset code as code, with syntax highlighting. 
 - Add a list of references at the end of each blog.
 
 Personally, I am more interested in content than in form, but form is important as well. Just ask yourself whether the form supports the understanding of the content or whether it distracts from what you want to achieve. For example, spelling mistakes are always distracting. And long paragraphs are almost always bad form. 
@@ -104,9 +104,7 @@ Again, if you have your own ideas, let me know. I am happy to adapt these guidel
 
 ## Ideas for the blog
 
-These are just suggestions, explore on your own. 
-
-Some items require more work than others. Feel free to expand interesting topics into a series of blog posts.
+These are just suggestions, explore on your own. **The blog is a space where you can be creative.** Some items require more work than others. Feel free to expand interesting topics into a series of blog posts. Get in touch with any questions.
 
 #### Haskell
 
