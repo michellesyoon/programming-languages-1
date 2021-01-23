@@ -6,7 +6,7 @@ You already know some programming languages (such as Python, Java, or C++) and y
 
 After this course you should be able to develop your own small programming language. We will learn how to define the syntax of a programming language using a context-free grammar, how to use a parser generator and how to write an interpreter by recursion on abstract syntax.
 
-Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. Our second example, will be the smallest proper programming language, lambda calculus. Finally, we extend lambda calculus to a mixed-paradigm language including higher-order functions, recursion, assignments, loops, pointers, and arrays.
+Our first programming language will just be high-school arithmetic and the interpreter will be a simple calculator. To appreciate that even this is not such an easy task, I invite you to implement a calculator in your favourite programming language before we start the course. (The challenge consists in extracting from the input string the relevant information about numbers, operations and order of operations.) Our second example, will be the smallest proper programming language, lambda calculus. Finally, we extend lambda calculus to a mixed-paradigm language including higher-order functions, recursion, assignments, loops, pointers, and arrays.
 
 On the way, we will introduce various theoretical concepts that underpin Programming Languages and open windows to topics in programming languages research.
 
@@ -40,9 +40,9 @@ I list some books that stood the test of time and are less technical and of wide
 
 - Hofstadter: [Goedel, Escher, Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach). A wide ranging book bringing together history, art, music and computer science. Contains a lot of rewriting and computability theory. The reader ends up with a proof of Goedel's incompleteness theorem, without going through a technical and advanced course of logic.
 
-- Smullyan: [To Mock a Mockingbird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird). Presents a deep but playful account of combinatory logic and the lambda-calculus.
+- Smullyan: [To Mock a Mockingbird](https://en.wikipedia.org/wiki/To_Mock_a_Mockingbird). Presents a deep but playful account of combinatory logic and the lambda-calculus. Entirely formulated as a sequence of logic puzzles that should be accessible to everybody with a taste for these kind of mind teasers. If you do, also check out other books by Smullyan.
 
-- Petzold: [The Annotated Turing](https://en.wikipedia.org/wiki/The_Annotated_Turing). Goes through Turing's famous paper line by line. Can be read from a technical point of view, but one can also browse it lightly and pick out the anecdotes.
+- Petzold: [The Annotated Turing](https://en.wikipedia.org/wiki/The_Annotated_Turing). Goes through Turing's famous paper line by line. Can be read from a technical point of view, but one can also browse it lightly and just pick out the anecdotes.
 
 - Doxiadis, Papadimitriou: [Logicomix](https://en.wikipedia.org/wiki/Logicomix). This graphical novel about the life of Bertrand Russell introduces many of the main players in the history of logic and computing in the early 19 hundreds. Co-authored by one of the most influential contemporary theoretical computer scientists.
 
@@ -70,6 +70,10 @@ The early history of programming languages was driven by mathematicians, logicia
 - [The Hole Argument](https://plato.stanford.edu/entries/spacetime-holearg/#PreInv) and [Symmetry and Symmetry Breaking](https://plato.stanford.edu/entries/symmetry-breaking/)
 
 Get in touch if you want to hear more about how these articles are related to this course.
+
+Our course will explore the ramifications of these early developments in the area of programming languages, in particular with respect to designing programming languages and building interpreters. Another important area of theoretical computer science branching off from the early fundamentamental [^typo] discoveries of Turing and others is computational complexity theory and I recommend [Chapter 2 of the book Mathematics and Computation](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1) for a first introduction. While the vast majority of this book is outside the scope of this course, this chapter illustrates well that programming languages and complexity theory flow from the same spring.
+
+[^typo]: I like this typo too much to correct it ... apologies.
 
 ## Modern History of Programming Languages
 

@@ -6,7 +6,7 @@ Deadline: First day after Thanksgiving break. (Tip: Start your blog in the summe
 
 This course can only scratch the surface of so many topics in programming languages, ranging from very practical (which programming language is best suited for what type of application) to purely mathematical (algorithmic complexity theory, algebra, logic, category theory, proof theory, ...). The blog is an opportunity to dig a bit deeper in what interests you most.
 
-Learning a new programming language is always a challenge, in particular if it is your first functional programming language. You only know that you understand something if you can explain it to somebody else. So a good way to start the blog is to write about Haskell. Moreover, for the course we only need some basics features of Haskell, essentially recursion over [algebraic data types](https://www.google.com/search?q=haskell+%22algebraic+data+type%22&oq=haskell+%22algebraic+data+type%22). So I invite you to take the opportunity to learn more about Haskell than we need and writing a blog/tutorial on what you learned would be a great way to showcase this.
+Learning a new programming language is always a challenge, in particular if it is your first functional programming language. You only know that you understand something if you can explain it to somebody else. So a good way to start the blog is to write about Haskell. Moreover, for the course we only need some basics features of Haskell, essentially recursion over [algebraic data types](https://www.google.com/search?q=haskell+%22algebraic+data+type%22&oq=haskell+%22algebraic+data+type%22). So I invite you to take the opportunity to learn more about Haskell than we need and to write a blog/tutorial on what you learned is a great way to showcase this.
 
 For more detailed ideas and suggestions see below.
 
@@ -73,14 +73,17 @@ If you are in doubt on the "shoulds" and "should-nots" get in touch (better earl
 
 ## General remarks on content
 
-Make the blog interesting to your readers including myself. Do not only repeat material that is already in the lecture notes.  Explore on your own. If you write about material we have covered in the lectures, make your own examples and add your own angle. **Do not post answers to homework and assignments.**
+Make the blog interesting to your readers including myself. Do not repeat material that is already in the lecture notes.  Explore on your own. If you write about material we have covered in the lectures, make your own examples and add your own angle. **Do not post answers to homework and assignments.**
 
-For example, if you write a Haskell tutorial, here are some things I would like to learn from you:
+If you write a Haskell tutorial:
+- It is essential that you pursue a [project](haskell-projects.md), however small. Building up the project step by step is a great way to structure a tutorial.
+
+While writing the blog, keep in mind that I am interested in answers to the following questions:
 - How do newcomers learn functional programming?
 - Which external sources (videos, blogs, tutorials, etc) do you find most useful?
 - How does Haskell compare to your favourite programming language? Give examples of the same algorithm written in your favourite language and in Haskell. What are the respectives strengths and weaknesses of the two programming paradigms?
 - What are, in your opinion, the major stumbling blocks in learning Haskell?
-- Are there any projects you implemented in Haskell that go beyond what we do in class? What did you learn from them? Can you explain your project in a way that the reader wants to run and/or recreate it?
+- Which project did you implement in Haskell? What did you learn? Can you explain your project in a way that the reader wants to run and/or recreate it?
 
 ## Grading Guidelines
 
@@ -89,7 +92,7 @@ Programming Languages is a vast subject. At the core of this course are three in
 The grading guidelines below are somewhat tailored to a blog that concentrates mainly on Haskell. As indicated above, other topics related to the course are also welcome. If in doubt, get in touch.
 
 - **D:** Demonstrates *basic* familiarity with Haskell and/or other aspects of Programming Languages.  
-- **C:** Demonstrates *adequate* familiarity with Haskell and/or other aspects of Programming Languages. Discusses interesting features of Haskell and illustrates them with their own programs. 
+- **C:** Demonstrates *adequate* familiarity with Haskell and/or other aspects of Programming Languages. Discusses interesting features of Haskell and illustrates them with their own project. 
 - **B:** Demonstrates *good* understanding of Haskell and/or other aspects of Programming Languages. Makes interesting observations that do not merely repeat points made in the lectures.  Develops material that goes beyond what has been treated in class and standard resources such as Wikipedia. Can be recommended to a beginning Haskeller as a resource. Makes connections between the practical and theoretical parts of the course. 
 - **A:** Is inspired by the course material but takes an independent perspective and *stands on its own*. Demonstrates a very good understanding of Haskell and/or other aspects of Programming Languages. Makes interesting observations and contains material that goes significantly beyond what has been treated in class. Will be of substantial interest to a beginning Haskeller or software engineer. Makes interesting connections between the practical and theoretical aspects. Typically would discuss some of the advanced features of Haskell such as type classes or monads and/or develop their own project (but there are many possibilities here ... get in touch to discuss more.)
 
@@ -108,15 +111,15 @@ These are just suggestions, explore on your own. **The blog is a space where you
 
 #### Haskell
 
--  Write a Haskell tutorial. Make your own examples that you think would help a beginning Haskeller to understand Haskell better. Cover some of the topics we only touch upon in the lectures such as IO, error messages, type classes, monads, ... even just doing IO via the console may hold some surprises ... 
+-  Write a Haskell tutorial. Choose a [project](haskell-projects.md). Cover some of the topics we only touch upon in the lectures such as IO, error messages, type classes, monads, ... 
 - Benchmark the same algorithms in (compiled!) Haskell and some other programming language. You can use [gnomon](https://github.com/paypal/gnomon) to measure the time that programs take to run. Evaluate your findings, explore what others have done, compare. (A good blog is not only reporting on reproducible experiments but also draws some interesting conclusions.)
 - Explain how to use docker to setup Haskell and bnfc. Make a dockerfile that we could use to run Haskell, bnfc and the assignments.
--  I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try.
-- Haskell and $\lambda$-calculus: 
-  - Write the same program in both languages and compare.
-  - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
--  If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is a big topic and would be worth a whole series of blog posts.)
-- Haskell is lazy, which is interesting for programming with infinite data structures such as streams ... I should add a link to get your started ... 
+-  I collected some ideas for [Haskell projects](haskell-projects.md) you might want to try. Here are some more ideas:
+    - Haskell and $\lambda$-calculus: 
+      - Write the same program in both languages and compare.
+      - Study Church numerals. Make examples. Implement Church numberals and run them in Haskell.
+    -  If you know C and have experience in programming with pointers, you will be interested to learn that all of this is still in Haskell, but hidden in the compiler. Study how the Haskell compiler makes working with lists efficient. (This is a big topic and would be worth a whole series of blog posts.)
+    - Haskell is lazy, which is interesting for programming with infinite data structures such as streams ... I should add a link to get your started ... 
 - The article [Why Functional Programming Matters](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf) by John Hughes argues that the advantage of functional programming over imperative programming stems from the increased modularity/compositionality afforded by higher-order functions and laziness. Summarize and evaluate this argument (don't forget to research potential disadvantages of laziness).
 
 #### Theory (Mathematics)
@@ -152,9 +155,11 @@ These are just suggestions, explore on your own. **The blog is a space where you
 
 #### Interpreters
 
+See also the suggestions for extending the calculator at [Haskell projects](haskell-projects.md).
+
 Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit](extra-credit.md). Some of these may be more difficult than others, get in touch before you spend a huge amount of time on this.
   - Efficiency:
-    - binary numbers instead of successor numbers
+    - Haskell numbers instead of successor numbers
     - call by value instead of call by name
     - better substitution/beta-reduction
     - call stack
@@ -162,7 +167,7 @@ Improve the `LambdaNat5` interpreter. See also my suggestions for [extra credit]
   - Usability
     - Booleans
     - error messages
-    - binary numbers
+    - Haskell numbers
     - pattern matching
     - ...
 

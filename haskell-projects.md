@@ -2,19 +2,32 @@
 
 I list some Haskell projects that should not be too difficult in themselves, but interesting enough for some programming practice.
 
-## Calculator
+## Starting Out
+
+Maybe the following examples can inspire you to choose your Haskell project:
+
+- Two nice beginner's projects that do not require any prerequisites were implemented by [Gary Zeri](https://github.com/GaryZ700/Haskell_Blog/blob/master/README.md) for the 2020 Programming Languages course. 
+
+- I implemented the beginnings of an automata theory course in Haskell in my [very short introduction to automata and Haskell](https://hackmd.io/@alexhkurz/HylLKujCP).
+
+- Let me know your own ideas ...
+
+## From the Programming Languages Course
+
+### Calculator
 
 Extend [the calculator](https://hackmd.io/@alexhkurz/HJVtVl068) from the lecture with further features:
 
 - Booleans
 - if-then-else
+- use the Maybe monad for [safe division](https://www.youtube.com/watch?v=t1e8gqXLbsU)
 - floating points
 - fractions
 - ...
 
 It would also be interesting to hook the calculator up with a web interface, but I have not done this myself, so I cannot give you specific technical advice on this.
 
-## Roman Numerals
+### Roman Numerals
 
 The idea is to implement a simple [string rewriting system](https://hackmd.io/@alexhkurz/BJ23jmpIw#Exercises-String-rewriting-essential-examinable), as discussed in the lectures, in Haskell. My solution has 17 lines of code (rewrite rules, applying a list of rules to a string, normalising) plus some more to convert between roman numerals and integers for testing purposes.
 
@@ -43,7 +56,7 @@ where `x +++ y` is defined as `Data.Text.concat [x, y]`.
 
 So far so good. Addition is easy. Just concatenation of strings, then rewriting to normal form. What about subtraction and multipliation? 
 
-## Abacus
+### Abacus
 
 Addition of roman numerals is easy to program as a string rewriting system. But this is not the way you want to compute. How did Roman merchants do their computations?
 
@@ -57,7 +70,7 @@ Implement addition of abacus-numbers in Haskell.
 
 A more sophisticated version of the abacus is the [soroban](https://en.wikipedia.org/wiki/Soroban). It is an interesting mix of a [place-value system](https://en.wikipedia.org/wiki/Positional_notation) with Roman numerals as one has a "digit" for the value $5$. 
 
-## See also ...
+### See also ...
 
 ... the [extra credit](extra-credit.md) projects.
 
