@@ -50,6 +50,8 @@ I list some books that stood the test of time and are less technical and of wide
 
 ## Early History of Programming Languages
 
+(for those with an interest in history and/or philosophy)
+
 The early history of programming languages was driven by mathematicians, logicians and philosophers. A great way to explore it is the Stanford Encyclopedia of Philosophy (SEP). I link articles that feature some of the early researchers in programming language who will appear in our course such as Church, Turing, and Curry and logicians and mathematicians for whom we do not have time such as Dedekind, Peano, Russell, Hilbert, Brouwer, Goedel, Gentzen. The articles can get quite technical but just reading the introductions gives an idea of the broader questions and developments. A nice project could be to arrange the topics and protagonists of these articles into a timeline and then sketch a short history of the most important ideas and how they hang together.
 
 - [The Modern History of Computing](https://plato.stanford.edu/entries/computing-history/)  
@@ -72,6 +74,9 @@ The early history of programming languages was driven by mathematicians, logicia
 Get in touch if you want to hear more about how these articles are related to this course.
 
 Our course will explore the ramifications of these early developments in the area of programming languages, in particular with respect to designing programming languages and building interpreters. Another important area of theoretical computer science branching off from the early fundamentamental [^typo] discoveries of Turing and others is computational complexity theory and I recommend [Chapter 2 of the book Mathematics and Computation](https://www.math.ias.edu/files/Book-online-Aug0619.pdf#page=1) for a first introduction. While the vast majority of this book is outside the scope of this course, this chapter illustrates well that programming languages and complexity theory flow from the same spring.
+
+I recently became more interested in the **history of variable binding**. In programming, variable binding and capture avoiding substitution was introduced in Church's lambda calculus.  It forms the basis of concepts such as function, method, procedure, scope, local vs global variables, objects and classes, interfaces, etc. In logic, variable binding appears as quantification. A good starting point for the history of quantifiers is Putnam's [Peirce the Logician](https://core.ac.uk/download/pdf/82687196.pdf). We will touch on the importance of quantifiers for computing in a lecture on [capture avoiding substitution](https://hackmd.io/@alexhkurz/SkQzDC6n7#A-programming-example). 
+
 
 [^typo]: I like this typo too much to correct it ... apologies.
 
