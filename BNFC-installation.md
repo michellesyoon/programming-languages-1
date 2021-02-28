@@ -6,24 +6,26 @@ The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, 
 
 I don't use Windows, so I am dependent on your feedback to put more information here ... here is what I gathered:
 
-Install Linux from the Windows store and continue to follow the instructions for Linux/MacOS in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL). Any Windows 10 user can install WSL on their pc. 
+- Instructions by [Michelle Yoon](michellesyoon.md).
 
-This video may help to install the [Haskell Platform in WSL](https://www.youtube.com/watch?v=aC3-Ur-mNM0). The short version is:
+- Install Linux from the Windows store and continue to follow the instructions for Linux/MacOS in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL). Any Windows 10 user can install WSL on their pc. 
 
-    sudo apt update
-    sudo apt upgrade
-    sudo apt install haskell-platform
-    sudo apt install haskell-stack
+    This video may help to install the [Haskell Platform in WSL](https://www.youtube.com/watch?v=aC3-Ur-mNM0). The short version is:
 
-Once you have Linux running you can try the executable from [BNFC homepage](http://bnfc.digitalgrammars.com/). If that doesn't work make your own:
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install haskell-platform
+        sudo apt install haskell-stack
 
-    git clone https://github.com/BNFC/bnfc
-    cd bnfc  
-    make
+    Once you have Linux running you can try the executable from [BNFC homepage](http://bnfc.digitalgrammars.com/). If that doesn't work make your own:
 
-If you don't have `make` try `sudo apt install make`.
+        git clone https://github.com/BNFC/bnfc
+        cd bnfc  
+        make
 
-You should now be able to [continue here](https://hackmd.io/@alexhkurz/HJVtVl068#Generating-a-Parser-from-a-Context-Free-Grammar).
+    If you don't have `make` try `sudo apt install make`.
+
+    You should now be able to [continue here](https://hackmd.io/@alexhkurz/HJVtVl068#Generating-a-Parser-from-a-Context-Free-Grammar).
 
 <!--
 ## Working with Docker
