@@ -6,7 +6,7 @@ The [BNFC homepage](http://bnfc.digitalgrammars.com/) is the first place to go, 
 
 I don't use Windows, so I am dependent on your feedback to put more information here ... here is what I gathered:
 
-- Instructions by [Michelle Yoon](michellesyoon.md).
+- Instructions by Michelle Yoon for [Linux in Windows](michellesyoon-ubuntu-in-windows.md).
 
 - Install Linux from the Windows store and continue to follow the instructions for Linux/MacOS in the next section ... this maybe preferable as it puts us all on the same page ... specifically there is the Windows Subsystem for Linux (WSL). Any Windows 10 user can install WSL on their pc. 
 
