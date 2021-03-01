@@ -1,6 +1,6 @@
 # Haskell and BNFC under Ubuntu in Windows
 
-**Works on Windows 10 Home and Windows 10 Education** <br>
+**Works on Windows 10 Home and Windows 10 Education**   
 *(Windows 10 Education is provided by Chapman for free for students)*
 
 1. Install Ubuntu onto your PC from the Microsoft Store following [this link](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6?activetab=pivot:overviewtab).
@@ -8,12 +8,12 @@
 2. After installing Ubuntu onto your PC, the Ubuntu window will prompt you to enter a username and password. 
 If successful, the Ubuntu window will prompt a *"Installation successful!"* message and your Linux command line will be displayed.
 
-3. On your Linux command line, type `sudo apt update` and after type in your passsword. 
-The update command is used to resynochronize the package index files from their sources on Ubuntu Linux through the internet.
+3. On your Linux command line, type `sudo apt update` and after type in your password. 
+The update command is used to resynchronize the package index files from their sources on Ubuntu Linux through the internet.
 
 4. On your Linux command line, type `sudo apt upgrade` and after type in your password. This
 The upgrade command is used to install the newest versions of all packages currently installed on the Ubuntu system.   
-*Note: Update and upgrade often to get the lastest versions of your packages installed to your Ubuntu.*
+*Note: Update and upgrade often to get the latest versions of your packages installed to your Ubuntu.*
 
 5. Navigate through the Window System on Ubuntu.
 After the update and upgrade, 
